@@ -1,0 +1,12 @@
+const {light} = require('zigbee-herdsman-converters/lib/modernExtend');
+
+const definition = {
+    zigbeeModel: ['ZDM150'],
+    model: 'ZDM150',
+    vendor: 'Enkin',
+    description: 'Automatically generated definition',
+    extend: [light()],
+    meta: {},
+};
+
+module.exports = definition;
